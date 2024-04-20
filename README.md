@@ -11,9 +11,9 @@ Then run the following steps for simulation. It takes around 2 days for each sim
 sudo apt update 
 sudo apt install byobu htop build-essential git m4 scons zlib1g zlib1g-dev libprotobuf-dev protobuf-compiler libprotoc-dev libgoogle-perftools-dev  libboost-all-dev pkg-config swig gcc-arm-linux-gnueabi -y
 
-git clone git@github.com:SNIC-EuroSys24/nf_bin.git
+git clone git@github.com:YangZhou1997/NFShield.git
 
-cd nf_bin
+cd NFShield
 curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
 sudo apt-get install git-lfs
 git lfs install
